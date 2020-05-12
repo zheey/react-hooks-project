@@ -1,0 +1,50 @@
+.input {
+  position: relative;
+  margin-bottom: 26px;
+  flex-direction: column;
+  display: flex;
+
+  span{
+    font-size: 13px;
+    color: red;
+    width: inherit;
+    margin-top: 4px;
+  }
+
+  .z-input {
+    width: 65%;
+    opacity: 1;
+    border: 0.3px solid #1517392e;
+    background: transparent;
+    padding: 0 20px;
+    font-size: 17px;
+  }
+
+  p{
+    background: #FFFBF8;
+    position: absolute;
+    top: -20%;
+    margin: 0;
+    padding: 0 14px 6px;
+    text-transform: capitalize;
+    font-size: 14px;
+  }
+}
+
+.z-relative{
+  position: relative;
+  height: 180px;
+}
+.relative{
+  position: relative;
+}
+
+.dashed{
+  height: 40%;
+  border: 0;
+  border-right: 2px dashed rgba(0,0,0,0.09);
+  width: 0;
+  position: absolute;
+  bottom: 4%;
+  left: 10%;
+}
